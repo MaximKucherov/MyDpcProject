@@ -1,0 +1,27 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio specific files
+.idea/
+*.iml
+
+# User-specific configuration files
+*.log
+*.bak
+*.swp
+
+# Local configuration files (like keystore)
+*.jks
+
+# Miscellaneous
+*.class
+*.apk
+*.dex
+*.so
+*.jar
+*.db
