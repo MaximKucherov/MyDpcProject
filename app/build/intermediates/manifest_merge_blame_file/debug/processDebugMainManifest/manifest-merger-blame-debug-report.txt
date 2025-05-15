@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\8c684f28f8166df28527b2c6cba9ac10\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-17:19
+17-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-18:19
 18        android:allowBackup="true"
 18-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,24 +31,25 @@
 22-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:6:9-43
 23        android:label="My DPC Project"
 23-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:7:9-39
-24        android:testOnly="true"
-25        android:theme="@style/Theme.Mydpcproject" >
-25-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:8:9-50
-26        <activity
-26-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:9:9-16:20
-27            android:name="com.example.mydpcproject.MainActivity"
-27-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:10:13-41
-28            android:exported="true" >
-28-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:11:13-36
+24        android:theme="@style/Theme.Mydpcproject" >
+24-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:8:9-50
+25        <activity
+25-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:9:9-17:20
+26            android:name="com.example.mydpcproject.MainActivity"
+26-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:10:13-41
+27            android:exported="true"
+27-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:11:13-36
+28            android:theme="@style/Theme.Mydpcproject" >
+28-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:12:13-54
 29            <intent-filter>
-29-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:12:13-15:29
+29-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:13:13-16:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:13:17-69
-30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:13:25-66
+30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:17-69
+30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:17-77
-32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:27-74
+32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:17-77
+32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:27-74
 33            </intent-filter>
 34        </activity>
 35

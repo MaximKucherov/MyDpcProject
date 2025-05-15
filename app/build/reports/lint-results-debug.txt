@@ -38,27 +38,19 @@ C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\build.gradle:37: Warni
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:3: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
-    <color name="purple_200">#FFBB86FC</color>
-           ~~~~~~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:4: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
-    <color name="purple_500">#FF6200EE</color>
-           ~~~~~~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
-    <color name="purple_700">#FF3700B3</color>
-           ~~~~~~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
-    <color name="teal_200">#FF03DAC5</color>
-           ~~~~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:7: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
-    <color name="teal_700">#FF018786</color>
-           ~~~~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:8: Warning: The resource R.color.black appears to be unused [UnusedResources]
-    <color name="black">#FF000000</color>
-           ~~~~~~~~~~~~
-C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\colors.xml:9: Warning: The resource R.color.white appears to be unused [UnusedResources]
-    <color name="white">#FFFFFFFF</color>
-           ~~~~~~~~~~~~
+C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\themes.xml:11: Warning: Unnecessary; SDK_INT is always >= 21 [ObsoleteSdkInt]
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+                                            ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
 C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
 C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\values\strings.xml:2: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
     <string name="app_name">mydpcproject</string>
@@ -131,4 +123,4 @@ C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\res\layout\ac
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 15 warnings
+0 errors, 9 warnings
