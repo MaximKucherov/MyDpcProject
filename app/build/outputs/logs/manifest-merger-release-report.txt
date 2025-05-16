@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-20:12
-INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-20:12
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\55345c142f18b085967cbe06574facb8\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\1d6ee84a5f074103bdcd8f4b587b883d\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\d7a6ed9c5e8d73137672a086717f2ab9\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -54,8 +54,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\maxim.kucherov\.gradle\caches\
 	xmlns:android
 		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-18:19
-INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-18:19
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-32:19
+INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-32:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\55345c142f18b085967cbe06574facb8\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\55345c142f18b085967cbe06574facb8\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\1d6ee84a5f074103bdcd8f4b587b883d\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -102,6 +102,26 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:27-74
+receiver#com.example.mydpcproject.MyDeviceAdminReceiver
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:19:9-30:20
+	android:exported
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:22:13-36
+	android:permission
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:21:13-70
+	android:name
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:20:13-50
+meta-data#android.app.device_admin
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:23:13-25:65
+	android:resource
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:25:17-62
+	android:name
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:24:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:27:13-29:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:28:25-79
 uses-sdk
 INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml

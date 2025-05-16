@@ -12,3 +12,4 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 style Theme.Mydpcproject
+xml device_admin_receiver

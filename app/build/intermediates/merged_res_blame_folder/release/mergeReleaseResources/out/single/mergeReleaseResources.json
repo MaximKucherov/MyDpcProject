@@ -12,6 +12,10 @@
         "source": "com.example.mydpcproject.app-main-32:/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "com.example.mydpcproject.app-release-31:/xml_device_admin_receiver.xml.flat",
+        "source": "com.example.mydpcproject.app-main-32:/xml/device_admin_receiver.xml"
+    },
+    {
         "merged": "com.example.mydpcproject.app-release-31:/layout_activity_main.xml.flat",
         "source": "com.example.mydpcproject.app-main-32:/layout/activity_main.xml"
     },

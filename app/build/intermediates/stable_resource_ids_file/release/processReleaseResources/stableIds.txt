@@ -1920,6 +1920,7 @@ com.example.mydpcproject:id/accessibility_custom_action_29 = 0x7f080027
 com.example.mydpcproject:dimen/material_filled_edittext_font_2_0_padding_bottom = 0x7f060233
 com.example.mydpcproject:attr/contentInsetEnd = 0x7f03013a
 com.example.mydpcproject:dimen/material_emphasis_medium = 0x7f060230
+com.example.mydpcproject:xml/device_admin_receiver = 0x7f120000
 com.example.mydpcproject:color/material_personalized_color_surface = 0x7f050294
 com.example.mydpcproject:id/BOTTOM_END = 0x7f080001
 com.example.mydpcproject:dimen/material_divider_thickness = 0x7f06022c
