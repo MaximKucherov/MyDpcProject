@@ -4,7 +4,7 @@
             "outputFile": "com.example.mydpcproject.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Maxim Kucherov\\.gradle\\caches\\8.12\\transforms\\aea0e6c434e97193c06d170290deb957\\transformed\\appcompat-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Maxim Kucherov\\.gradle\\caches\\8.14\\transforms\\72c130a482ddcd04595ea7f1d203296f\\transformed\\appcompat-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Maxim Kucherov\\.gradle\\caches\\8.12\\transforms\\8958c173c85c71a0d93227100581f72b\\transformed\\material-1.12.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Maxim Kucherov\\.gradle\\caches\\8.14\\transforms\\52f5767ffcc2f3786b6ca29ccb221cf0\\transformed\\material-1.12.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
