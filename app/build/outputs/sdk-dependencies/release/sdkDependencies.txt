@@ -50,10 +50,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib"
-    version: "1.9.22"
+    version: "2.1.21"
   }
   digests {
-    sha256: "j\276\024l\'\206A8\270t\314\314\376_SN>\271#\311\232\033{]EIN\345iO>\n"
+    sha256: "&;\334g\236\037b\001-\267\260\221yby\266\327\034\363oG\227\251\217\361\254\340X5\362\001\310"
   }
   repo_index {
     value: 1
@@ -102,7 +102,7 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib-common"
-    version: "1.9.22"
+    version: "2.1.21"
   }
   repo_index {
     value: 1

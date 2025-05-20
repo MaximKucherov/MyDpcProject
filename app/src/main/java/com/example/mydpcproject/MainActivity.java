@@ -12,16 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Уведомить Android, что provisioning завершён
-        DevicePolicyManager dpm = (DevicePolicyManager) getSystemService(DEVICE_POLICY_SERVICE);
-        ComponentName admin = new ComponentName(this, MyDeviceAdminReceiver.class);
-
-        if (dpm != null && dpm.isDeviceOwnerApp(getPackageName())) {
-            dpm.setUserProvisioningState(
-                    DevicePolicyManager.STATE_USER_SETUP_COMPLETE,
-                    Process.myUserHandle().hashCode()
-            );
-        }
     }
+
+
 }
