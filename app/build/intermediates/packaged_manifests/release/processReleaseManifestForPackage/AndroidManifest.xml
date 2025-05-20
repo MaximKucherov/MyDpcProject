@@ -20,6 +20,7 @@
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
         android:label="My DPC Project"
+        android:testOnly="true"
         android:theme="@style/Theme.Mydpcproject" >
         <activity
             android:name="com.example.mydpcproject.MainActivity"

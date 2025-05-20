@@ -4,7 +4,7 @@
             "outputFile": "com.example.mydpcproject.app-mergeReleaseResources-29:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\52f5767ffcc2f3786b6ca29ccb221cf0\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\9238c7ff3aa7814a40aa3d737e88450c\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\72c130a482ddcd04595ea7f1d203296f\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\ea2d7fe13c8a771ae3ce2b1c91249920\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

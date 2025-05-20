@@ -4,24 +4,7 @@
             "outputFile": "com.example.mydpcproject.app-mergeReleaseResources-29:/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\3576de53ee1291700d500a72cd86e469\\transformed\\core-1.13.0\\res\\values-bg\\values-bg.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,262,364,465,572,677,796",
-                        "endColumns": "96,109,101,100,106,104,118,100",
-                        "endOffsets": "147,257,359,460,567,672,791,892"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,116",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3537,3634,3744,3846,3947,4054,4159,10078",
-                        "endColumns": "96,109,101,100,106,104,118,100",
-                        "endOffsets": "3629,3739,3841,3942,4049,4154,4273,10174"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\52f5767ffcc2f3786b6ca29ccb221cf0\\transformed\\material-1.12.0\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\9238c7ff3aa7814a40aa3d737e88450c\\transformed\\material-1.12.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\72c130a482ddcd04595ea7f1d203296f\\transformed\\appcompat-1.7.0\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\16d096691cc6d2943a86bc84cc224bf9\\transformed\\core-1.13.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,262,364,465,572,677,796",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "147,257,359,460,567,672,791,892"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,116",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3537,3634,3744,3846,3947,4054,4159,10078",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "3629,3739,3841,3942,4049,4154,4273,10174"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\ea2d7fe13c8a771ae3ce2b1c91249920\\transformed\\appcompat-1.7.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
