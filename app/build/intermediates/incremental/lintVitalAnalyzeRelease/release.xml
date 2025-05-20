@@ -6,7 +6,7 @@
     mergedManifest="build\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.10.0;proguard-rules.pro"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
-    desugaredMethodsFiles="C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\e27d1225113655553a7fd3b470f056e2\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\87986072e0b424d1adf01c2a42b61323\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -26,6 +26,6 @@
       applicationId="com.example.mydpcproject"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out"
       generatedResourceFolders="build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\maxim.kucherov\.gradle\caches\8.12\transforms\e27d1225113655553a7fd3b470f056e2\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\87986072e0b424d1adf01c2a42b61323\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

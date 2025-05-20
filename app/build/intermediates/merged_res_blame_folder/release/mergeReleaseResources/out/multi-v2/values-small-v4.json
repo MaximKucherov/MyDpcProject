@@ -4,7 +4,7 @@
             "outputFile": "com.example.mydpcproject.app-mergeReleaseResources-29:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.12\\transforms\\55345c142f18b085967cbe06574facb8\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\maxim.kucherov\\.gradle\\caches\\8.14\\transforms\\52f5767ffcc2f3786b6ca29ccb221cf0\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
