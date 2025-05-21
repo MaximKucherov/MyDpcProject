@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.mydpcproject.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.example.mydpcproject.ProvisioningSuccessActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.mipmap.ic_launcher_round"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher_round.webp"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_500(U),purple_700(U),teal_200(U),white(U),black(U)],drawable[ic_launcher_background(U),ic_launcher_foreground(U),ic_launcher_foreground_1(R)],id[setup_options(U),setup_device_owner(U),setup_managed_profile(U),next_button(U)],layout[activity_main(U),setup_management_fragment(U)],mipmap[ic_launcher(U),ic_launcher_round(D)],style[Theme_Mydpcproject(U),Theme_AppCompat_Light_DarkActionBar(R)],xml[device_admin_receiver(U)];7^8,f^6^7,10^6^7,11^12^1^2^4^3^5^0;;;"/>
+    </map>
+
+</incidents>

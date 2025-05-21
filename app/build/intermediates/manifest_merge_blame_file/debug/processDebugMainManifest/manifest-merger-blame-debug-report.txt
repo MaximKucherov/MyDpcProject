@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mydpcproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.mydpcproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.mydpcproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:4:5-52:19
+18        android:allowBackup="true"
+18-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\16d096691cc6d2943a86bc84cc224bf9\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:6:9-43
+23        android:label="My DPC Project"
+23-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:7:9-39
+24        android:theme="@style/Theme.Mydpcproject" >
+24-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:8:9-50
+25        <activity
+25-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:9:9-17:20
+26            android:name="com.example.mydpcproject.MainActivity"
+26-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:10:13-41
+27            android:exported="true"
+27-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:11:13-36
+28            android:theme="@style/Theme.Mydpcproject" >
+28-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:12:13-54
+29            <intent-filter>
+29-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:13:13-16:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:17-69
+30-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:17-77
+32-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:15:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <!-- Provisioning activity for QR setup -->
+37        <activity
+37-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:20:9-28:20
+38            android:name="com.example.mydpcproject.ProvisioningActivity"
+38-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:21:13-49
+39            android:exported="true"
+39-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:22:13-36
+40            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+40-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:23:13-70
+41            <intent-filter>
+41-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:24:13-27:29
+42                <action android:name="android.app.action.PROVISION_MANAGED_DEVICE" />
+42-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:25:17-86
+42-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:25:25-83
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:26:17-76
+44-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:26:27-73
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:30:9-37:20
+48            android:name="com.example.mydpcproject.ProvisioningSuccessActivity"
+48-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:31:13-56
+49            android:exported="true" >
+49-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:32:13-36
+50            <intent-filter>
+50-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:33:13-36:29
+51                <action android:name="android.app.action.PROVISIONING_SUCCESSFUL" />
+51-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:34:17-85
+51-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:34:25-82
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:26:17-76
+53-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:26:27-73
+54            </intent-filter>
+55        </activity>
+56
+57        <receiver
+57-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:39:9-50:20
+58            android:name="com.example.mydpcproject.MyDeviceAdminReceiver"
+58-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:40:13-50
+59            android:exported="true"
+59-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:42:13-36
+60            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+60-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:41:13-70
+61            <meta-data
+61-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:43:13-45:65
+62                android:name="android.app.device_admin"
+62-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:44:17-56
+63                android:resource="@xml/device_admin_receiver" />
+63-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:45:17-62
+64
+65            <intent-filter>
+65-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:47:13-49:29
+66                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+66-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:48:17-82
+66-->C:\Users\maxim.kucherov\Documents\GitHub\MyDpcProject\app\src\main\AndroidManifest.xml:48:25-79
+67            </intent-filter>
+68        </receiver>
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.mydpcproject.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\a6271526350b85647a1e24611142887c\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\8dd940185032b825f48fe1b704c3b93b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\8dd940185032b825f48fe1b704c3b93b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\8dd940185032b825f48fe1b704c3b93b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maxim.kucherov\.gradle\caches\8.14\transforms\f58d7e091e226b787c6555aa3e87f0ec\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>

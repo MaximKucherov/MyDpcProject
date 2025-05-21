@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="How will you use this phone?"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginBottom="16dp" />
+	
+	<RadioGroup
+        android:id="@+id/setup_options"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/setup_device_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use for work only" />
+
+        <RadioButton
+            android:id="@+id/setup_managed_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use for work &amp; personal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_button"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
